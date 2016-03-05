@@ -1,0 +1,20 @@
+﻿bước 1:
+giải nén file apk và phần công cụ (ApkExtractor) vào chung 1 thư mục
+
+bước 2:
+==> vào thư mục có chứa (classes.dex) và  bật cmd trong thư mục đó
+lệnh 1: dex2jar classes.dex  ==> chờ nó chạy done nó sẽ tạo ra 1 file class_dex2jar.jar
+
+bước 3:
+mở jd-gui.exe trong cùng thư mục .
+Open => chọn file class_dex2jar.jar
+chọn bấm save as chọn thư mục cần save (lưu ở ngoài thư mục dễ thấy).
+
+Bước 4:
+kiểm tra trong thư mục apktool đã có file apk chưa nếu chưa thì coppy vào.tiếp tục gõ lệnh
+apktool if framework-res.apk  (2)
+apktool d app.apk   (3)
+=> sau khi gõ 2 và 3 thì nó sẽ tạo ra 1 thư mục trùng tên với tên file apk
+=> đổi tên thư mục thành source và cut ra chỗ khác 
+sau đó tạo 1 file src và coppy toàn bộ trong classes_dex2jar.src vào src
+cut src để vào thư mục source => có thể bấm refresh để hiện thị đầy đủ file
