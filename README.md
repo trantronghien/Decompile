@@ -2,8 +2,6 @@
 
 ![practice-of-android-reverse-engineering-7-728](https://cloud.githubusercontent.com/assets/13708331/24585044/34f168e8-17ab-11e7-9780-12235c205cd5.jpg)
 
-![001](https://cloud.githubusercontent.com/assets/13708331/24585046/37018474-17ab-11e7-93ae-3a4a29413023.png)
-
  ### khi dịch ngược ta thường thấy smali vậy smali là gì ?
  * Đây là nơi chưa toàn bộ cấu trúc dữ liệu của ứng dụng. Bên trong mục này có chứa rất nhiều file .smali khác. tất cả những gì file apk có thể kết nối được đều liên quan đến mục này. ***ai muốn hack ứng dụng hay trò chơi đều nằm ở đây.***
 ngoài ra còn có các thư mục khác như: bin, src, zml, data... tùy theo mỗi file apk ( ứng dụng hay game mà nhà sản xuất viết ra).
